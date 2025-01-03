@@ -1,0 +1,57 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(90deg, #282c34, #3a3f47);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a,
+.nav-links Link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links Link:hover {
+  color: #61dafb;
+  transition: color 0.3s ease;
+}
+
+.logo-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.logo-image {
+  height: 40px; /* Adjust the size of the image */
+  width: 40px; /* Set width equal to height for a circle */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 10px; /* Add space between the image and the text */
+  object-fit: cover; /* Ensure the image scales properly */
+}
+
+.logo-text {
+  font-size: 16px; /* Adjust font size as needed */
+  color: rgb(255, 255, 255); /* Set text color */
+  font-weight: bold; /* Make the text bold */
+}
+
+.logo a {
+  text-decoration: none;
+}
+

@@ -1,0 +1,27 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+  text-align: center;
+  color: #333; /* Dark text color */
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #282c34; /* Darker heading color */
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.6; /* Improved line spacing for readability */
+  max-width: 800px; /* Restrict content width */
+  color: #555; /* Softer text color */
+}
+
+.about-me p strong {
+  color: #61dafb; /* Highlight key words */
+  font-weight: bold;
+}

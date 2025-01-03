@@ -8,9 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-
 @RequestMapping("/api/contacts")
-
 public class ContactMessageController {
 
     private final ContactMessageService contactMessageService;
